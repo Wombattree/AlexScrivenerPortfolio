@@ -1,6 +1,5 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-//import { Icon } from 'react-bulma-components/lib/components/icon';
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
 
 export default function AboutMe() 
@@ -35,5 +34,3 @@ export default function AboutMe()
 		</div>
 	);
 }
-
-// <span className="icon is-large"><i className="fa-brands fa-github fas fa-2x"></i>
