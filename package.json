@@ -1,7 +1,8 @@
 {
-  "name": "AlexScrivenerPortfolio_ReactVersion",
+  "name": "AlexScrivenerPortfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://wombattree.github.io/AlexScrivenerPortfolio",
   "dependencies": {
     "gh-pages": "^4.0.0",
     "react": "^17.0.1",
@@ -34,6 +35,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "homepage": "https://wombattree.github.io/alexscrivenerresume"
+  }
 }
