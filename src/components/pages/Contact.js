@@ -55,12 +55,12 @@ export default function Contact()
 		<div>
 		<section className="section">
 			<div className="columns is-mobile is-centered">
-				<div className="column is-three-quarters-mobile is-two-thirds-tablet is-half-desktop is-half-fullhd">
+				<div className="column is-three-quarters-tablet">
 					<div className="container is-vcentered">
 						<div className="card mt-6">
 							<div className="card-content">
 								<div className="content">
-								<h1>Contact Me</h1>
+								<h1 className="pageTitle">Contact Me</h1>
 									<div className="field">
 										<label className="label">Name</label>
 										<div className="control">

@@ -24,7 +24,7 @@ export default function NavigationBar({ currentPage, HandlePageChange })
 		<div>
 			<nav className="navbar has-background-dark p-2 has-text-weight-semibold is-transparent" role="navigation" aria-label="main navigation">
 				<div className="navbar-brand">
-					<div className="navbar-item has-text-white is-size-3 ml-5">Alex Scrivener's Web Dev Portfolio</div>
+					<div className="navbar-item has-text-white is-size-3 ml-5">Alex Scrivener</div>
 					<a 
 						onClick ={() => SetBurgerBarState(!burgerBarActive)}
 						role="button"
