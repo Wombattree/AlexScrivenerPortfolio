@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faSquareCaretDown, faSquareCaretUp } from '@fortawesome/free-solid-svg-icons'
 
 export default function Resume() 
 {
@@ -27,7 +29,7 @@ export default function Resume()
 								<div className="content">
 									<h1 className="pageTitle">Alex Scrivener - Resume</h1>
                   <div className={`drawer ${detailsExpanded ? "drawerOpen" : ""}`}>
-                  <h2 onClick={ToggleDetails}><span className="icon is-medium"><i className={`fa-light ${detailsExpanded ? "fa-square-minus" : "fa-square-plus"} fas`}></i></span> Details</h2>
+                  <h2 onClick={ToggleDetails}><FontAwesomeIcon className="iconMedium" icon={detailsExpanded ? faSquareCaretUp : faSquareCaretDown}/> Details</h2>
 									<ul>
                     <p><b>Address:</b> 13 Wallis Street Parkside, SA 5063</p>
                     <p><b>Phone:</b> 0434 114 662</p>
@@ -36,7 +38,7 @@ export default function Resume()
                   </div>
 
                   <div className={`drawer ${technologiesExpanded ? "drawerOpen" : ""}`}>
-                  <h2 onClick={ToggleTechnologies}><span className="icon is-medium"><i className={`fa-light ${technologiesExpanded ? "fa-square-minus" : "fa-square-plus"} fas`}></i></span> Technologies</h2>
+                  <h2 onClick={ToggleTechnologies}><FontAwesomeIcon className="iconMedium" icon={technologiesExpanded ? faSquareCaretUp : faSquareCaretDown}/> Technologies</h2>
                   <ul>
                     <h3 className="is-size-5 mt-3"><b>HTML</b></h3>
                     <ul>
@@ -90,7 +92,7 @@ export default function Resume()
                   </div>
 
                   <div className={`drawer ${workExperienceExpanded ? "drawerOpen" : ""}`}>
-                  <h2 onClick={ToggleWorkExperience}><span className="icon is-medium"><i className={`fa-light ${workExperienceExpanded ? "fa-square-minus" : "fa-square-plus"} fas`}></i></span> Work Experience</h2>
+                  <h2 onClick={ToggleWorkExperience}><FontAwesomeIcon className="iconMedium" icon={workExperienceExpanded ? faSquareCaretUp : faSquareCaretDown}/> Work Experience</h2>
                   <ul>
                     <li>
                       <h3 className="is-size-5 mt-3"><b>Woolworths</b> — Service cashier</h3>
@@ -118,7 +120,7 @@ export default function Resume()
                   </div>
 
                   <div className={`drawer ${educationExpanded ? "drawerOpen" : ""}`}>
-                  <h2 onClick={ToggleEducation}><span className="icon is-medium"><i className={`fa-light ${educationExpanded ? "fa-square-minus" : "fa-square-plus"} fas`}></i></span> Education</h2>
+                  <h2 onClick={ToggleEducation}><FontAwesomeIcon className="iconMedium" icon={educationExpanded ? faSquareCaretUp : faSquareCaretDown}/> Education</h2>
                   <ul>
                     <li>
                       <h3 className="is-size-5 mt-3"><b>Pembroke School</b></h3>
@@ -140,7 +142,7 @@ export default function Resume()
                   </div>
 
                   <div className={`drawer ${skillsExpanded ? "drawerOpen" : ""}`}>
-                  <h2 onClick={ToggleSkills}><span className="icon is-medium"><i className={`fa-light ${skillsExpanded ? "fa-square-minus" : "fa-square-plus"} fas`}></i></span> Skills</h2>
+                  <h2 onClick={ToggleSkills}><FontAwesomeIcon className="iconMedium" icon={skillsExpanded ? faSquareCaretUp : faSquareCaretDown}/> Skills</h2>
                   <ul>
                     <li>
                       <h3 className="is-size-5 mt-3"><b>Quick learner</b></h3>
@@ -160,7 +162,7 @@ export default function Resume()
                   </div>
 
                   <div className={`drawer ${referencesExpanded ? "drawerOpen" : ""}`}>
-                  <h2 onClick={ToggleReferences}><span className="icon is-medium"><i className={`fa-light ${referencesExpanded ? "fa-square-minus" : "fa-square-plus"} fas`}></i></span> References</h2>
+                  <h2 onClick={ToggleReferences}><FontAwesomeIcon className="iconMedium" icon={referencesExpanded ? faSquareCaretUp : faSquareCaretDown}/> References</h2>
                   <ul>
                     <li>
                       <h3 className="is-size-5 mt-3"><b>Alexandra McCole</b></h3>

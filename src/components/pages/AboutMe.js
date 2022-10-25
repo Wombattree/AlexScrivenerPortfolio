@@ -1,4 +1,7 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+//import { Icon } from 'react-bulma-components/lib/components/icon';
+import { faGithub } from '@fortawesome/free-brands-svg-icons'
 
 export default function AboutMe() 
 {
@@ -21,7 +24,7 @@ export default function AboutMe()
 											<img className="avatar" src="https://www.rainforest.com.au/wp-content/uploads/2019/10/wombat-rainforestation-nature-park-kuranda.jpg" alt="Me"></img>
 										</div>
 									</div>
-									<a href="https://github.com/Wombattree"><span className="icon is-large"><i className="fa-brands fa-github fas fa-2x"></i></span></a>
+									<a href="https://github.com/Wombattree"><FontAwesomeIcon className="iconLarge" icon={faGithub}/></a>
 								</div>
 							</div>
 						</div>
@@ -32,3 +35,5 @@ export default function AboutMe()
 		</div>
 	);
 }
+
+// <span className="icon is-large"><i className="fa-brands fa-github fas fa-2x"></i>

@@ -3,6 +3,18 @@
   border-color: hsl(0, 0%, 96%);
 }
 
+.iconMedium
+{
+  height: 30px;
+  width: 30px;
+}
+
+.iconLarge
+{
+  height: 40px;
+  width: 40px;
+}
+
 .avatar
 {
   border-radius: 5%;
