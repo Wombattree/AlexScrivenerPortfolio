@@ -5,7 +5,7 @@
 ## Description
 My web dev portfolio. Made with React.
 
-You can find the deployed version [here.](https://wombattree.github.io/AlexScrievnerPortfolio/).
+You can find the deployed version [here.](https://wombattree.github.io/AlexScrivenerPortfolio/).
 
 ![Preview Image](./screenshot.png?raw=true "Preview Image")
 
